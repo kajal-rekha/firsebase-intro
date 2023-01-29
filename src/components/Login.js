@@ -61,7 +61,7 @@ const Login = () => {
       <div className="login-platforms flex flex-col gap-5 items-center">
         <button
           onClick={handleGoogleLogIn}
-          className="google-sign-in bg-gray-700 text-white h-14 w-96 rounded-md font-medium hover:bg-orange-500 duration-300"
+          className="google-sign-in bg-gray-700 text-white h-14 w-96 rounded-md font-medium hover:bg-orange-400 duration-300"
         >
           Log in with Google
         </button>
