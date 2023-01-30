@@ -9,8 +9,8 @@ const Profile = ({ user, setUser }) => {
     signOut(auth)
       .then(() => {
         console.log("signed out");
-        setUser(null);
-        navigate("/login");
+        setUser("");
+        navigate("/");
       })
       .catch((error) => {
         console.log(error);
